@@ -1,0 +1,81 @@
+.cuerpo {
+  width: 800px;
+  border: solid 1px rgb(255, 227, 211);
+  background-color: rgb(255, 244, 239);
+  display: flex;
+  position: absolute;
+  left: 400px;
+}
+.imagen {
+  margin-top: 10px;
+  width: 120px;
+}
+.SectionImagen {
+  background-color: rgb(255, 216, 197);
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.lateral {
+  margin-left: 20px;
+  margin-right: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.principal {
+  width: 450px;
+  margin-left: 1%;
+}
+
+.CuadradoLleno {
+  border: solid 1px rgb(255, 175, 138);
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 149, 100);
+}
+.CuadradoVacio {
+  border: solid 1px rgb(255, 149, 100);
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 211, 190);
+}
+.titulo {
+  font-size: 20px;
+  text-align: center;
+  width: 99%;
+  background-color: rgb(255, 206, 182);
+}
+.habilidad {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+.nombre,
+.profesion {
+  display: flex;
+  justify-content: center;
+}
+.nombre {
+  font-size: 30px;
+}
+.cuadraditos {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.subtitulosHabilidades {
+  font-size: 18px;
+  margin: 5px;
+  color: rgb(231, 159, 122);
+}
+.titulosAlineados {
+  display: flex;
+  justify-content: space-between;
+}
