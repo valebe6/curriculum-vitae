@@ -1,23 +1,14 @@
-.cuerpo {
-  width: 800px;
-  border: solid 1px rgb(255, 227, 211);
-  background-color: rgb(255, 244, 239);
-  display: flex;
-  position: absolute;
-  left: 400px;
+* {
+  margin: 0;
 }
-.imagen {
-  margin-top: 10px;
-  width: 120px;
+main {
+  background-image: url("./assets/img/fondoEncabezado.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.SectionImagen {
-  background-color: rgb(255, 216, 197);
-  width: 240px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+.perfil {
+  width: 20%;
+  margin: 3%;
 }
 .lateral {
   margin-left: 20px;
@@ -57,10 +48,9 @@
   justify-content: space-between;
   gap: 5px;
 }
-.nombre,
-.profesion {
+.datos {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 .nombre {
   font-size: 30px;
@@ -78,4 +68,7 @@
 .titulosAlineados {
   display: flex;
   justify-content: space-between;
+}
+.fondoEncabezado {
+  width: 100%;
 }

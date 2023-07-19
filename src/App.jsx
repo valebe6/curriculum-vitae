@@ -1,24 +1,36 @@
-import Datos from "./components/layouts/Datos";
-import SobreMi from "./components/layouts/SobreMi";
-import Nombre from "./components/layouts/Nombre";
-import Experiencia from "./components/layouts/Experiencia";
-import Educacion from "./components/layouts/Educacion";
-import Habilidades from "./components/layouts/Habilidades";
+import SobreMi from "./components/layouts/vistas/SobreMi";
+import Experiencia from "./components/layouts/vistas/Experiencia";
+import Habilidades from "./components/layouts/vistas/Habilidades";
+import Portafolio from "./components/layouts/vistas/Portafolio"
+import Principal from "./components/helpers/Principal";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+const router=createBrowserRouter([
+  {
+    path:'/experiencia',
+    element:<Experiencia/>
+  },
+  {
+    path:'/sobre-mi',
+    element:<SobreMi/>
+  },
+  {
+    path:'/habilidades',
+    element:<Habilidades/>
+  },
+  {
+    path:'/portafolio',
+    element:<Portafolio/>
+  },
+  {
+    path:'/',
+    element:<Principal/>
+  }
+])
 
 function App() {
   return (
-    <main className="cuerpo">
-      <section className="lateral">
-        <Datos />
-        <SobreMi />
-        <Habilidades />
-      </section>
-      <section className="principal">
-        <Nombre />
-        <Experiencia />
-        <Educacion />
-      </section>
-    </main>
+    <RouterProvider router={router}/>
   );
 }
 
