@@ -5,19 +5,21 @@ import HabilidadesTrabajo from "../HabilidadesTrabajo";
 function Habilidades() {
   return (
     <section>
-      <Principal/>
+      <Principal />
       <section className="titulo">HABILIDADES</section>
-      <section>
-        <section className="subtitulosHabilidades">
-          HABILIDADES DEL TRABAJO
+      <section className="contenido">
+        <section>
+          <section className="subtitulosHabilidades">
+            HABILIDADES DEL TRABAJO
+          </section>
+          <HabilidadesTrabajo />
         </section>
-        <HabilidadesTrabajo />
-      </section>
-      <section>
-        <section className="subtitulosHabilidades">
-          HABILIDADES PERSONALES
+        <section>
+          <section className="subtitulosHabilidades">
+            HABILIDADES PERSONALES
+          </section>
+          <HabilidadesPersonal />
         </section>
-        <HabilidadesPersonal />
       </section>
     </section>
   );

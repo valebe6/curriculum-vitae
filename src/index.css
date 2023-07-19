@@ -10,50 +10,44 @@ main {
   width: 20%;
   margin: 3%;
 }
-.lateral {
-  margin-left: 20px;
-  margin-right: 10px;
-  width: 300px;
+.navegacion {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-}
-.principal {
-  width: 450px;
-  margin-left: 1%;
 }
 
 .CuadradoLleno {
-  border: solid 1px rgb(255, 175, 138);
+  border: solid 1px #5b6bff;
   width: 15px;
   height: 15px;
-  background-color: rgb(255, 149, 100);
+  background-color: #909bff;
 }
 .CuadradoVacio {
-  border: solid 1px rgb(255, 149, 100);
+  border: solid 1px #909bff;
   width: 15px;
   height: 15px;
-  background-color: rgb(255, 211, 190);
+  background-color: #C3C9FF;
 }
 .titulo {
-  font-size: 20px;
+  font-size: 200%;
   text-align: center;
-  width: 99%;
-  background-color: rgb(255, 206, 182);
+  width: 100%;
+  background-color: #C3C9FF;
 }
-.habilidad {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 5px;
-}
+
 .datos {
   display: flex;
   flex-direction: column;
 }
-.nombre {
-  font-size: 30px;
+.info{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  gap: 10px;
+  font-size: 120%;
+
 }
 .cuadraditos {
   display: flex;
@@ -61,14 +55,44 @@ main {
   align-items: center;
 }
 .subtitulosHabilidades {
-  font-size: 18px;
-  margin: 5px;
-  color: rgb(231, 159, 122);
+  font-size: 120%;
+  margin-bottom: 3%;
+  color: #909bff;
 }
 .titulosAlineados {
   display: flex;
   justify-content: space-between;
 }
-.fondoEncabezado {
-  width: 100%;
+
+.enlace{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #C3C9FF;
+  border-radius: 10px;
+  width: 10%;
+  height: 25px;
+  margin-bottom: 2%;
+  color: black;
+  font-size: 120%;
+}
+.enlace:hover{
+  background-color: #C3C9FF;
+  color: white;
+}
+.contenido{
+  display: flex;
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  font-size: 130%;
+}
+.sobremi{
+  align-items: start;
+  gap: 5%;
+}
+.infoMia{
+  width: 170%
 }

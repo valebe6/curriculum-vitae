@@ -10,7 +10,7 @@ function HabilidadesTrabajo() {
           <CuadradoLleno />
           <CuadradoLleno />
           <CuadradoLleno />
-          <CuadradoLleno />
+          <CuadradoVacio />
           <CuadradoVacio />
         </div>
       </section>
@@ -19,7 +19,17 @@ function HabilidadesTrabajo() {
         <div className="cuadraditos">
           <CuadradoLleno />
           <CuadradoLleno />
+          <CuadradoVacio />
+          <CuadradoVacio />
+          <CuadradoVacio />
+        </div>
+      </section>
+      <section className="habilidad">
+        <p>BOOTSTRAP</p>
+        <div className="cuadraditos">
           <CuadradoLleno />
+          <CuadradoLleno />
+          <CuadradoVacio />
           <CuadradoVacio />
           <CuadradoVacio />
         </div>
@@ -29,8 +39,8 @@ function HabilidadesTrabajo() {
         <div className="cuadraditos">
           <CuadradoLleno />
           <CuadradoLleno />
-          <CuadradoLleno />
-          <CuadradoLleno />
+          <CuadradoVacio />
+          <CuadradoVacio />
           <CuadradoVacio />
         </div>
       </section>
