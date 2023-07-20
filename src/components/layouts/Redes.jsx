@@ -18,14 +18,13 @@ const Redes = () => {
         >
           <FontAwesomeIcon icon={faFacebook} className="icono-facebook" />
         </Link>
-        <Link
-          to={"https://wa.me/+573016365181"}
-          rel="noopener noreferrer"
-        >
+        <Link to={"https://wa.me/+573016365181"} rel="noopener noreferrer">
           <FontAwesomeIcon icon={faWhatsapp} className="icono-whatsapp" />
         </Link>
         <Link
-          to={"https://instagram.com/milydc93?igshid=MzNlNGNkZWQ4Mg=="}
+          to={
+            "https://instagram.com/valentina_betancur06?igshid=NGExMmI2YTkyZg=="
+          }
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faInstagram} className="icono-instagram" />
