@@ -1,6 +1,6 @@
 import perfil from "../../assets/img/ValentinaBetancur.jpg";
 import { Link } from "react-router-dom";
-import fondo from "../../assets/img/fondoEncabezado.png";
+import Redes from "../layouts/Redes";
 
 function Principal() {
   return (
@@ -14,7 +14,7 @@ function Principal() {
             <h3>VALENTINA BETANCUR</h3>
             <h1>DESARROLLADORA JUNIOR</h1>
             <p>valentinabetancur0607@gmail.com</p>
-            <p>3016365181</p>
+            <Redes/>
           </section>
         </section>
         <section className="navegacion">

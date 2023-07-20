@@ -9,6 +9,7 @@ main {
 .perfil {
   width: 20%;
   margin: 3%;
+  border-radius: 15px;
 }
 .navegacion {
   display: flex;
@@ -26,20 +27,20 @@ main {
   border: solid 1px #909bff;
   width: 15px;
   height: 15px;
-  background-color: #C3C9FF;
+  background-color: #c3c9ff;
 }
 .titulo {
   font-size: 200%;
   text-align: center;
   width: 100%;
-  background-color: #C3C9FF;
+  background-color: #c3c9ff;
 }
 
 .datos {
   display: flex;
   flex-direction: column;
 }
-.info{
+.info {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -47,7 +48,6 @@ main {
   left: 25%;
   gap: 10px;
   font-size: 120%;
-
 }
 .cuadraditos {
   display: flex;
@@ -64,12 +64,12 @@ main {
   justify-content: space-between;
 }
 
-.enlace{
+.enlace {
   text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #C3C9FF;
+  border: 3px solid #c3c9ff;
   border-radius: 10px;
   width: 10%;
   height: 25px;
@@ -77,22 +77,84 @@ main {
   color: black;
   font-size: 120%;
 }
-.enlace:hover{
-  background-color: #C3C9FF;
+.enlace:hover {
+  background-color: #c3c9ff;
   color: white;
 }
-.contenido{
+.contenido {
   display: flex;
   gap: 20%;
   justify-content: center;
   align-items: center;
-  margin-top: 3%;
+  margin: 3%;
   font-size: 130%;
 }
-.sobremi{
+.sobremi {
   align-items: start;
   gap: 5%;
+  margin-top: 0;
 }
-.infoMia{
-  width: 170%
+.infoMia {
+  width: 170%;
+}
+
+.card p {
+  font-size: 150%;
+  text-align: center;
+}
+.card img {
+  width: 80%;
+  margin-top: 2%;
+  border-radius: 10px;
+}
+.card {
+  width: 48%;
+  height: 450px;
+  border-radius: 10px;
+  background-color: #c3c9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+.containerCards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.enlacePortafolio {
+  width: 20%;
+  height: 8%;
+  background-color: #909bff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 150%;
+  border-radius: 10px;
+  color: black;
+}
+.enlacePortafolio:hover {
+  background-color: #5b6bff;
+  color: white;
+}
+.icono-facebook {
+  color: #3b5998;
+  height: 2em;
+}
+.icono-instagram {
+  color: #e1306c;
+  height: 2em;
+}
+.icono-whatsapp {
+  color: #00bb2d;
+  height: 2em;
+}
+.icono-facebook:hover, .icono-whatsapp:hover, .icono-instagram:hover{
+ color: white;
+}
+
+.redes{
+  display: flex;
+  gap: 10px;
 }
