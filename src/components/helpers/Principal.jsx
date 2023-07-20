@@ -30,6 +30,9 @@ function Principal() {
           <Link className="enlace" to={"/habilidades"}>
             Habilidades
           </Link>
+          <Link className="enlace" to={"/contacto"}>
+            Contacto
+          </Link>
         </section>
       </section>
     </main>

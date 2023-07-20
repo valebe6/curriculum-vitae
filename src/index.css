@@ -158,3 +158,55 @@ main {
   display: flex;
   gap: 10px;
 }
+.containerForm{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+.formulario{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 3%;
+  margin-top: 3%;
+  border: 2px solid #5b6bff;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: #e6e9ff;
+}
+.formulario h2{
+  font-size: 200%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.formulario label{
+  font-size: 150%;
+  margin-top: 2%;
+}
+.formulario input{
+  width: 50%;
+  border: none;
+  border-bottom: 1px solid #5b6bff;
+  font-size: 100%;
+  background:none;
+  outline: none;
+}
+.formulario button{
+  background-color: #909bff;
+  color: black;
+  width: 30%;
+  height: 25px;
+  border-radius: 15px;
+  font-size: 100%;
+  border: none;
+  margin-top: 3%;
+}
+
+.formulario button:hover{
+  background-color: #5b6bff;
+  color: white;
+  cursor: pointer;
+}

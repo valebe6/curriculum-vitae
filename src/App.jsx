@@ -3,6 +3,7 @@ import Experiencia from "./components/layouts/vistas/Experiencia";
 import Habilidades from "./components/layouts/vistas/Habilidades";
 import Portafolio from "./components/layouts/vistas/Portafolio"
 import Principal from "./components/helpers/Principal";
+import Contacto from "./components/layouts/vistas/Contacto";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router=createBrowserRouter([
@@ -21,6 +22,10 @@ const router=createBrowserRouter([
   {
     path:'/portafolio',
     element:<Portafolio/>
+  },
+  {
+    path:'/contacto',
+    element:<Contacto/>
   },
   {
     path:'/',
